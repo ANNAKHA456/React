@@ -1,0 +1,44 @@
+/* Add your CSS styling for EducationDetails component here */
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: calc(50% - 4px); /* Calculate 50% width for two inputs with a small gap */
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    display: inline-block; /* Set inputs to display inline */
+}
+
+button {
+    background-color: #47b34b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Add more styles as needed */

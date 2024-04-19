@@ -1,0 +1,53 @@
+/*.div{
+    background-color:white;
+  }
+.pagination {
+    
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    
+  }
+  
+  .pagination a.active {
+    background-color: #125dea;
+    color: white;
+    border: 2px solid #39e636;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}*/
+  /* Add your CSS styling for Navbar component here */
+.pagination {
+    display: flex;
+    background-color: #98bc21;
+    height: 70px;
+  }
+  
+  .pagination a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+  }
+  
+  .pagination a.active {
+    background-color: #15bdcc;
+  }
+  
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+  }
+
+  

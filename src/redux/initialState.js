@@ -1,0 +1,20 @@
+const initialState = {
+    basicdet:{ firstname: '',
+    lastname: '',
+    mailid: '',
+    address: '',
+    phno: '',
+    dob: '',
+  },
+  summary:[],
+  matridets:[],
+  interests:[],
+  hsdets:[],
+  graddets:[],
+  pgdets:[],
+  tasksList: [],
+  workdet:[],
+  prodet:[],
+  references:[],
+    }
+export default initialState;

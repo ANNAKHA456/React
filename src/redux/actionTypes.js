@@ -1,0 +1,16 @@
+export const BASIC_DET="BASIC_DET";
+export const GET_DET="GET_DET";
+export const ADD_NEW_TASK = "ADD_NEW_TASK";
+export const DELETE_TASK = "DELETE_TASK";
+export const MATRI="MATRI";
+export const HSDET="HSDET";
+export const GRAD="GRAD";
+export const PGDET="PGDET" ;
+export const ADDINTER="ADDINTER";
+export const UPDATE_TASK="UPDATE_TASK" ;
+export const WORK_DET="WORK_DET";
+export const DELWORK="DELWORK";
+export const EDIT_WORK = "EDIT_WORK";
+export const PRO_DET="PRO_DET";
+export const REF_DET="REF_DET";
+export const ADD_SUMM="ADD_SUMM";
